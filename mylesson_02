@@ -1,0 +1,111 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset = "UTF=8">
+        <title> About Tables </title>
+    </head>
+    <body>
+        <p>Let us create a table</p>
+        <table width = "100%" border = "1" bordercolor = purple cellspacing = "2" cellpadding = "2">
+            <tr>
+                <td><b>Name</b></td>
+                <td><b>Number</b></td>
+            </tr>
+            <tr>
+                <td>Navya</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Naisha</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Naina</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Nandita</td>
+                <td>95</td>
+            </tr>
+        </table>
+        <p>let us create a nested table</p>
+        <table width = "100%" border = "1" bordercolor = "red" cellspacing = "2" cellpadding = "2">
+            <tr>
+                <td>
+                    <table width = "50%" border = "1" bordercolor = purple cellspacing = "2" cellpadding = "2">
+                        <tr>
+                            <td><b>Name</b></td>
+                            <td><b>Number</b></td>
+                        </tr>
+                        <tr>
+                            <td>Sivya</td>
+                            <td>75</td>
+                        </tr>
+                
+            
+                        <tr>
+                            <td>Siisha</td>
+                            <td>80</td>
+                        </tr>
+                        <tr>
+                            <td>Sina</td>
+                            <td>72</td>
+                        </tr>
+                        <tr>
+                            <td>Sandita</td>
+                            <td>85</td>
+                        </tr>
+                     
+                </td>
+            </table>
+            </tr>
+        </table>
+        <p>let me show u merge of cells</p>
+        <table width = "100%" border = "1" bordercolor = purple cellspacing = "2" cellpadding = "2">
+            <tr>
+                <td colspan = "2"><b>Name</b></td>
+                
+            </tr>
+            <tr>
+                <td>Navya</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Naisha</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Naina</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td>Nandita</td>
+                <td>95</td>
+            </tr>
+        </table>
+        <p>let me show you text wrapping and cell alignment</p>
+        <table width = "100%" border = "1" bordercolor = purple cellspacing = "2" cellpadding = "2">
+            <tr>
+                <td colspan = "2" nowrap><b>Name is a noun. Here i have taken four names navya naisha naina nandia with their number 85 90 82 and so on.....................</b></td>
+                
+            </tr>
+            <tr>
+                <td>Navya</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Naisha</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td align="center">Naina</td>
+                <td>82</td>
+            </tr>
+            <tr>
+                <td align="right">Nandita</td>
+                <td>95</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
